@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:arnicite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:arnicite_heart",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:determination_arnicite_heart",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:bravery_arnicite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:justice_arnicite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:kindness_arnicite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:patience_arnicite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:integrity_arnicite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soulforge:perseverance_arnicite"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 2,
+            "max": 3
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sfserver:life_candy"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

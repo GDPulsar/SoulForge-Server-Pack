@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "type": "square-textured",
+  "textures": {
+    "top": "fabricskyboxes:sky/top_rain_sunset.png",
+    "bottom": "fabricskyboxes:sky/bottom_rain_sunset.png",
+    "north": "fabricskyboxes:sky/north_rain_sunset.png",
+    "south": "fabricskyboxes:sky/south_rain_sunset.png",
+    "east": "fabricskyboxes:sky/east_rain_sunset.png",
+    "west": "fabricskyboxes:sky/west_rain_sunset.png"
+  },
+  "properties": {
+    "fade": {
+      "startFadeIn": 11500,
+      "endFadeIn": 12000,
+      "startFadeOut": 13000,
+      "endFadeOut": 13333
+    },
+	"transitionSpeed": 0.01,
+	"changeFog": true,
+    "fogColors": {
+	  "red": 0.663,
+	  "green": 0.702,
+      "blue": 0.772,
+      "alpha": 1.0
+    },
+    "shouldRotate": true,
+    "rotation": {
+      "axis": [
+        0.0,
+        -18.0,
+        0.0
+      ]
+    }
+  },
+  
+  "decorations": {
+	"sun": "minecraft:textures/environment/sun.png",
+	"moon": "minecraft:textures/environment/moon.png",
+	"showSun": false,
+	"showMoon": false
+  },
+  "conditions": {
+    "weather": [
+      "rain",
+      "thunder"
+    ],
+    "worlds": [
+      "minecraft:overworld"
+    ]
+  }
+}

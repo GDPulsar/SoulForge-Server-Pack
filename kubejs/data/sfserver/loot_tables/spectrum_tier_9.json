@@ -1,0 +1,149 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:amethyst_storage_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:citrine_storage_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:topaz_storage_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:polished_basalt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 80,
+                "max": 160
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:polished_calcite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 80,
+                "max": 160
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:stratine_fragments",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:neolith",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:onyx_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

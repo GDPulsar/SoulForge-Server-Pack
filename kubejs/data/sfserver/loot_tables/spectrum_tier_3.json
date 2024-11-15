@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 23
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:citrine_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 23
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:topaz_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 23
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:polished_basalt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:polished_calcite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:shimmerstone_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:vegetal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

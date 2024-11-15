@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "tag": "sfserver:pressure_helmet"
+      },
+      "chest": {
+        "tag": "sfserver:pressure_chestplate"
+      },
+      "legs": {
+        "tag": "sfserver:pressure_leggings"
+      },
+      "feet": {
+        "tag": "sfserver:pressure_boots"
+      }
+    }
+  }
+}

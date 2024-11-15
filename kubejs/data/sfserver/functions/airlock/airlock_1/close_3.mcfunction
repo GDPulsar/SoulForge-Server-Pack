@@ -1,0 +1,1 @@
+fill -8 -57 23 -8 -60 19 spectrum:preservation_bricks

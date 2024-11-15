@@ -1,0 +1,243 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 25,
+                "max": 60
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:citrine_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 25,
+                "max": 60
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:topaz_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 25,
+                "max": 60
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:polished_basalt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 35,
+                "max": 75
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:polished_calcite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 35,
+                "max": 75
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:red_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:orange_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:yellow_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:lime_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:green_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:cyan_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:light_blue_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:blue_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:purple_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:pink_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:magenta_pigment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 20
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

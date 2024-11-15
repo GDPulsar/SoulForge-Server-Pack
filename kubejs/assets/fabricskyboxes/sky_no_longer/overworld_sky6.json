@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "type": "square-textured",
+  "textures": {
+    "top": "fabricskyboxes:sky/top_nightclouds.png",
+    "bottom": "fabricskyboxes:sky/bottom_nightclouds.png",
+    "north": "fabricskyboxes:sky/north_nightclouds.png",
+    "south": "fabricskyboxes:sky/south_nightclouds.png",
+    "east": "fabricskyboxes:sky/east_nightclouds.png",
+    "west": "fabricskyboxes:sky/west_nightclouds.png"
+  },
+  	"decorations": {
+		"showStars": false
+	},
+  "properties": {
+    "fade": {
+      "startFadeIn": 12750,
+      "endFadeIn": 13000,
+      "startFadeOut": 23166,
+      "endFadeOut": 23416
+    },
+    "shouldRotate": false,
+	"changeFog": true,
+    "fogColors": {
+	  "red": 0.204,
+	  "green": 0.216,
+      "blue": 0.259,
+      "alpha": 1.0
+    },
+    "rotation": {
+      "axis": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "conditions": {
+    "worlds": [
+      "minecraft:overworld"
+    ]
+  },
+    "blend": {
+	"type": "screen"
+  }
+}

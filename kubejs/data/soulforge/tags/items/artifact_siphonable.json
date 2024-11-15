@@ -1,0 +1,33 @@
+{
+	"replace": false,
+	"values": [
+		"spectrum:bedrock_helmet",
+		"spectrum:bedrock_chestplate",
+		"spectrum:bedrock_leggings",
+		"spectrum:bedrock_boots",
+		"spectrum:bedrock_sword",
+		"spectrum:bedrock_pickaxe",
+		"spectrum:bedrock_axe",
+		"spectrum:bedrock_shovel",
+		"spectrum:bedrock_hoe",
+		"spectrum:bedrock_bow",
+		"spectrum:bedrock_crossbow",
+		"spectrum:malachite_workstaff",
+		"spectrum:malachite_ultra_greatsword",
+		"spectrum:malachite_crossbow",
+		"spectrum:malachite_bident",
+		"botania:terrasteel_helmet",
+		"botania:terrasteel_chestplate",
+		"botania:terrasteel_leggings",
+		"botania:terrasteel_boots",
+		"botania:terra_sword",
+		"majruszsdifficulty:enderium_helmet",
+		"majruszsdifficulty:enderium_chestplate",
+		"majruszsdifficulty:enderium_leggings",
+		"majruszsdifficulty:enderium_boots",
+		"betterend:crystalite_helmet",
+		"betterend:crystalite_chestplate",
+		"betterend:crystalite_leggings",
+		"betterend:crystalite_boots"
+	]
+}

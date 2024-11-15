@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "bravery_essence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sfserver:essences/bravery_essence"
+      }
+    },
+    "justice_essence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sfserver:essences/justice_essence"
+      }
+    },
+    "kindness_essence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sfserver:essences/kindness_essence"
+      }
+    },
+    "patience_essence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sfserver:essences/patience_essence"
+      }
+    },
+    "integrity_essence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sfserver:essences/integrity_essence"
+      }
+    },
+    "perseverance_essence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sfserver:essences/perseverance_essence"
+      }
+    }
+  }
+}

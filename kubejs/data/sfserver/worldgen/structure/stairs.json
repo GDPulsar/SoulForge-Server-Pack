@@ -1,0 +1,6 @@
+{
+  "type": "sfserver:library_stairs",
+  "biomes": "sfserver:the_library",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

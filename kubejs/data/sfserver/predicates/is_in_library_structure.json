@@ -1,0 +1,49 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "sfserver:library_cargo"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "structure": "sfserver:library_stairs"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 4,
+      "offsetZ": 4,
+      "predicate": {
+        "structure": "sfserver:library_cargo"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 4,
+      "offsetZ": 4,
+      "predicate": {
+        "structure": "sfserver:library_stairs"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -4,
+      "offsetZ": -4,
+      "predicate": {
+        "structure": "sfserver:library_cargo"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -4,
+      "offsetZ": -4,
+      "predicate": {
+        "structure": "sfserver:library_stairs"
+      }
+    }
+  ]
+}

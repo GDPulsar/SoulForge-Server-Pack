@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "botania:mystical_flowers",
+          "expand": true
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 2,
+            "max": 5
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "botania:manasteel_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:mana_diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:mana_pearl",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_fire",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_water",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_air",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_earth",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_mana",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

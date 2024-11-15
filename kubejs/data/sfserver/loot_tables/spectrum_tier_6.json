@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:amethyst_storage_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:citrine_storage_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:topaz_storage_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:polished_basalt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 50,
+                "max": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spectrum:polished_calcite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 50,
+                "max": 100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
